@@ -54,12 +54,21 @@ tbody {
     vertical-align: middle;
     border-color: inherit;
 }
-h2 {
+
+form {
     display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    margin-top: 0em;
+}
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+div {
+    display: block;
+}
+label {
+    display: block;
+    cursor: default;
+}
+input[type="text" i] {
+    padding: 1px 2px;
 }
